@@ -67,6 +67,7 @@
     .courses-cards .col {
         width: 50%;
         margin-bottom: 20px;
+        flex: none;
     }
 
     .courses {
