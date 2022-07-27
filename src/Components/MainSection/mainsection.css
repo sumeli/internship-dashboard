@@ -1,0 +1,81 @@
+.mainSection {
+    margin-top: 5%;
+}
+
+.mainSection input {
+    margin-left: 25px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgb(225, 220, 220);
+    padding: 10px;
+    font-size: 17px;
+}
+
+.search button {
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(225, 220, 220);
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(113, 110, 110);
+    width: 18%
+}
+
+.search button svg {
+    font-size: 18px;
+}
+
+.courses {
+    margin-top: 5%;
+    margin-left: 25px;
+}
+
+.courses h3 {
+    font-size: 26px !important;
+    font-weight: 600;
+}
+
+.courses-cards {
+    margin-top: 20px;
+}
+
+.courses-cards .card {
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .search button {
+        margin-left: 10px;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainSection input {
+        width: 85%;
+    }
+
+    .search button {
+        width: 35%;
+        margin-top: 18px;
+        margin-left: 30%;
+    }
+
+    .courses-cards .col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .courses {
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .courses h3 {
+        text-align: center;
+    }
+    
+}

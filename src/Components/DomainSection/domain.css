@@ -1,0 +1,37 @@
+.domain {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.domain-cards {
+    margin-top: 20px;
+}
+.domain-cards .card{
+    border: none;
+    background-color: rgb(236, 233, 233);
+    text-align: center;
+}
+
+.domain-cards .card .card-text {
+    font-size: 65px;
+    color: rgb(0, 172, 0);
+}
+
+.domain-cards .card .desc {
+    font-weight: 600;
+}
+
+.domain-cards .card .text{
+    cursor: pointer;
+    color: rgb(60, 60, 255);
+}
+
+@media screen and (max-width: 500px) {
+    .domain-cards .card {
+        margin-bottom: 20px;
+    }
+
+    .domain-cards .row {
+        display: block;
+    }
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import MainSection from './Components/MainSection/MainSection'
+import SideBar from './Components/SideBar/SideBar'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import SideBarPhone from './Components/SidebarPhone/SideBarPhone';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Container>
+        <Row>
+          <Col sm={3}>
+            <SideBar />
+            <SideBarPhone />
+          </Col>
+          <Col sm={9}> 
+            <MainSection />
+          </Col>
+        </Row>
+      </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
